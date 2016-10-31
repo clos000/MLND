@@ -1,2 +1,2 @@
-# MLND
-Machine Learning Nano Degree
+# P1
+Boston Housing Prices
