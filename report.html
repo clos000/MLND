@@ -14604,7 +14604,7 @@ DvY/3/dD8ZKr/PAAAAAASUVORK5CYII=
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer: </strong> The grid search technique creates a range of parameters to be tested on a learning algorithm to find and optimize the parameters of the algorithm to the data.</p>
+<p><strong>Answer: </strong> The grid search technique is an exhaustive search method to find and choose the most optimal hyperparameters for a learning algorithm from a manual specified subset of the hyperparameters. The technique is guided by a performance metric which is measured by cross validation on a training data set. The technique generates scores for each set of hyperparameter settings and then outputs the settings of the parameters which achieved the highest score. The optimized parameters then can be used in our model to evaluate the testing data.</p>
 
 </div>
 </div>
@@ -14625,7 +14625,7 @@ DvY/3/dD8ZKr/PAAAAAASUVORK5CYII=
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer: </strong> The k-fold cross validation training technique splits the data in k chunks and k fits where each chunk is used as a validation set. The result is then averaged. This is beneficial to the grid search since it splits up up the data into testing and training portions so we can validate and help optimize the grid search parameters.</p>
+<p><strong>Answer: </strong> The k-fold cross validation training technique splits the data in k chunks and k fits where each chunk is used exactly once as a validation set. This is beneficial to the grid search since it splits up all the data into testing and training portions so we can validate and help optimize the grid search parameters across the entire dataset. This is particularly helpful since it prevents overfitting of the data and allows us to arrive at the best parameters across the dataset using various portions of the data set.</p>
 
 </div>
 </div>
